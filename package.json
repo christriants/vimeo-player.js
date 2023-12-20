@@ -110,6 +110,7 @@
   },
   "ava": {
     "require": [
+      "esm",
       "@babel/register",
       "./test/helpers/browser-env.js"
     ],
@@ -119,7 +120,6 @@
   },
   "nyc": {
     "require": [
-      "esm",
       "@babel/register"
     ],
     "exclude": [
