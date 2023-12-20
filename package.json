@@ -119,6 +119,7 @@
   },
   "nyc": {
     "require": [
+      "esm",
       "@babel/register"
     ],
     "exclude": [
